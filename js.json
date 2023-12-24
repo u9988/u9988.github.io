@@ -1,7 +1,22 @@
 {
 "spider":"./jar/pg.jar;md5;efb86a0831e4de3beac0045d23ecbd01",
-"lives":[{"name":"初秋语","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
+"lives":[  {
+    "name": "live",
+    "type": 0,
+    "url": "https://u9988.github.io/live.txt",
+    "playerType": 1,
+    "ua": "okhttp/3.15",
+    "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
+    "logo": "https://epg.112114.xyz/logo/{name}.png"
+  },  {
+    "name": "live",
+    "type": 0,
+    "url": "https://u9988.github.io/ip6.txt",
+    "playerType": 1,
+    "ua": "okhttp/3.15",
+    "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
+    "logo": "https://epg.112114.xyz/logo/{name}.png"
+  }],
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
